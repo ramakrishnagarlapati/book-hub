@@ -1,0 +1,28 @@
+.no-books-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-books-image {
+  width: 257px;
+  height: 175px;
+}
+.no-books-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #334155;
+}
+
+@media (min-width: 769px) {
+  .no-books-image {
+    width: 476px;
+    height: 320px;
+  }
+  .no-books-desc {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.05px;
+  }
+}

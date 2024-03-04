@@ -1,0 +1,33 @@
+.book-details-link {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.book-item-image {
+  width: 130px;
+  height: 150px;
+  border-radius: 8px;
+}
+.book-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.book-item-title {
+  color: #334155;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.book-item-author,
+.book-item-rating,
+.book-item-status {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #475569;
+}
